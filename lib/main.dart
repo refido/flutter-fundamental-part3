@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'widget/image_widget.dart';
+// import 'widget/image_widget.dart';
 import 'widget/forms.dart';
 
 void main() {
@@ -49,11 +49,15 @@ class _MyHomePageState extends State<MyHomePage> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                const ImageWidget(),
+                // const ImageWidget(),
+                const Text(
+                  'You have pushed the button this many times:',
+                ),
                 Text(
                   '$_counter',
                   style: Theme.of(context).textTheme.headline4,
                 ),
+                const FormContoh(),
               ],
             )),
       ),
