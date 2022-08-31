@@ -1,16 +1,18 @@
 # flutter_fundamental_3
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Praktikum
+## OnTap
+![Screen Gesture 1](images/1.gif)
+Fungsi gesture detector akan mendeteksi di Widget mana terjadinya aksi oleh cursor.
+Pada gambar di atas, angka akan bertambah jika widget gambar diketuk atau diklik. 
+## OnDoubleTap
+![Screen Gesture 2](images/2.gif)
+Pada gambar di atas, angka akan bertambah jika widget gambar dua kali diketuk atau diklik. 
+## OnLongPress
+![Screen Gesture 3](images/3.gif)
+Pada gambar di atas, angka akan bertambah jika widget gambar diketuk lama atau diklik panjang. 
+## Input Widget
+![Form Input 1](images/4.png)
+Pada gambar di atas, valid akan bernilai true apabila form tidak kosong. 
+## Custom Input Widget
+![Form Input 2](images/5.png)
+Pada gambar di atas, valid akan bernilai true apabila form berisi angka 0 sampai 9.
