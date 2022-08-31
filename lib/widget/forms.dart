@@ -4,10 +4,10 @@ class FormContoh extends StatefulWidget {
   const FormContoh({Key? key}) : super(key: key);
 
   @override
-  _FormContohState createState() => _FormContohState();
+  FormContohState createState() => FormContohState();
 }
 
-class _FormContohState extends State<FormContoh> {
+class FormContohState extends State<FormContoh> {
   final _controller = TextEditingController.fromValue(
     const TextEditingValue(text: "Initial value"),
   );
@@ -27,7 +27,7 @@ class _FormContohState extends State<FormContoh> {
   }
 
   @override
-  Widget build(BuildContext topContext) {
+  Widget build(BuildContext context) {
     return Form(
       key: _key,
       child: Column(
